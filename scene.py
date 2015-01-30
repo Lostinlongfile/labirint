@@ -10,6 +10,7 @@ class LScene:
 	sex=0
 	sey=0
 	sez=0
+	
 	def __init__(self):
 		pass
 	def initFun():
