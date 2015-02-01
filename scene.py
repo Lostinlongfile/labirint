@@ -45,5 +45,5 @@ class LScene:
 		gluLookAt (self.sex, self.sey, self.sez, 
 				   self.ey, self.ez, self.ex,
 				   0.0, 1.0, 0.0);
-		self.ob.render();
+		self.ob.render_for_point(point(self.ex, self.ey, self.ez));
 		glFlush()

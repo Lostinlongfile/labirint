@@ -24,9 +24,10 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=1
+current_page=2
 FILE_NAME_0=182;Python;0;EUTF-8;1;1;0;E%3A%5Cwork_and_projects%5Clabirint%5Cmain.py;0;4
-FILE_NAME_1=478;Python;0;EUTF-8;1;1;0;E%3A%5Cwork_and_projects%5Clabirint%5Cscene.py;0;4
+FILE_NAME_1=730;Python;0;EUTF-8;1;1;0;E%3A%5Cwork_and_projects%5Clabirint%5Cscene.py;0;4
+FILE_NAME_2=234;Python;0;EUTF-8;0;1;0;E%3A%5Cwork_and_projects%5Clabirint%5Conebox.py;0;4
 
 [build-menu]
 EX_00_LB=_Выполнить
