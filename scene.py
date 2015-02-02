@@ -7,7 +7,7 @@ import sys
 class LScene:
 	ex=3.0
 	ey=3.0
-	ez=3.0
+	ez=-3.0
 	sex=0.0
 	sey=0.0
 	sez=0.0
@@ -24,17 +24,17 @@ class LScene:
 	def keyPressed(self,c,x,y):
 		print (c,x,y,self.sex,self.sey,self.sez,self.ex,self.ey,self.ez)
 		if c==b'w':
-			self.sey+=self.stp
+			self.ey+=self.stp
 		elif c==b's':
-			self.sey-=self.stp
+			self.ey-=self.stp
 		elif c==b'a':
-			self.sex-=self.stp
+			self.ex-=self.stp
 		elif c==b'd':
-			self.sex+=self.stp
+			self.ex+=self.stp
 		elif c==b'f':
-			self.sez-=self.stp
+			self.ez-=self.stp
 		elif c==b'c':
-			self.sez+=self.stp
+			self.ez+=self.stp
 		elif c==b'q':
 			sys.exit()
 		self.displayFun()
